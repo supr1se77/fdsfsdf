@@ -320,7 +320,7 @@ module.exports = {
                     new ActionRowBuilder().addComponents(
                         new TextInputBuilder()
                             .setCustomId('contas')
-                            .setLabel("Contas (uma por linha: usuario:senha|link_email)")
+                            .setLabel("Contas (usuario:senha|link_email)")
                             .setStyle(TextInputStyle.Paragraph)
                             .setRequired(true)
                             .setPlaceholder("usuario1:senha1|https://link-email1\nusuario2:senha2|https://link-email2")
@@ -338,7 +338,7 @@ module.exports = {
                     new ActionRowBuilder().addComponents(
                         new TextInputBuilder()
                             .setCustomId('tipo')
-                            .setLabel("Tipo/Categoria (ex: Premium, Robux, Normal)")
+                            .setLabel("Tipo/Categoria (ex: Premium, Robux)")
                             .setStyle(TextInputStyle.Short)
                             .setRequired(true)
                             .setPlaceholder("Premium")
@@ -372,7 +372,7 @@ module.exports = {
                     new ActionRowBuilder().addComponents(
                         new TextInputBuilder()
                             .setCustomId('plataforma')
-                            .setLabel("Plataforma (ex: Steam, Google Play, Netflix)")
+                            .setLabel("Plataforma (Steam, Google Play, etc)")
                             .setStyle(TextInputStyle.Short)
                             .setRequired(true)
                             .setPlaceholder("Steam")
@@ -406,7 +406,7 @@ module.exports = {
                     new ActionRowBuilder().addComponents(
                         new TextInputBuilder()
                             .setCustomId('categoria')
-                            .setLabel("Categoria (ex: gold, platinum, black)")
+                            .setLabel("Categoria (gold, platinum, black)")
                             .setStyle(TextInputStyle.Short)
                             .setRequired(true)
                             .setPlaceholder("gold")
@@ -422,7 +422,7 @@ module.exports = {
                     new ActionRowBuilder().addComponents(
                         new TextInputBuilder()
                             .setCustomId('cartoes')
-                            .setLabel("Cartões (formato: numero|mes|ano|cvv|info)")
+                            .setLabel("Cartões (numero|mes|ano|cvv|info)")
                             .setStyle(TextInputStyle.Paragraph)
                             .setRequired(true)
                             .setPlaceholder("4021123456789012|12|25|123|VISA GOLD ITAU")
