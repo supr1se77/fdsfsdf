@@ -1,0 +1,13 @@
+{
+  "token": "",
+  "clientId": "1385307495244763236",
+  "guildId": "1376730691173351476",
+  "cargoCompradorID": "1386412909281935421",
+  "canalLogsPagamentoID": "1386412777664413788",
+  "categoriaTrocaID": "1385304462507245568",
+  "cargoAcessoID": "1386412943733690439",
+  "cargoAdminID": "1376730732935778334",
+  "zeroOnePublicKey": "fca0ecb3-5845-444f-b1f8-b4b504cb17a1",
+  "zeroOneSecretKey": "1bcce6c3-4ae3-443d-8fc8-f623749f0946",
+  "modoTeste": true
+}
